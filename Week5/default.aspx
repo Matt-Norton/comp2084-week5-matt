@@ -222,4 +222,8 @@
         </div> <!-- end row -->
     </div> <!--end container fluid -->
 
+            <div class="text-center">
+        <input type="submit" name="ctl00$ContentPlaceHolder1$btnCalculate" value="Calculate Totals" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnCalculate&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_btnCalculate" class="btn btn-primary" />
+    </div>
+
 </asp:Content>
