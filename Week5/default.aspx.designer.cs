@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Week5 {
+namespace GameCalculator {
     
     
     public partial class _default {

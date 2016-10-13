@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <!-- all visible content goes here -->
-        <h1>Week 5</h1>
-        <p class="jumbotron">This application is used to explore the basics of ASP.NET</p>
+        <h1>Game Calculator</h1>
+        
 
 </asp:Content>
