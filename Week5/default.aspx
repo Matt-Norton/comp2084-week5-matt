@@ -4,18 +4,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <!-- all visible content goes here -->
         <h1>Game Calculator</h1>
-       <div>
-        <asp:label id="lblMessage" runat="server" 
-            cssclass="alert alert-info" Visible="false"></asp:label>
-    </div>
-    <asp:textbox id="txtName" runat="server" 
-        placeholder="Enter your name" />
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
-        ErrorMessage="Required" ControlToValidate="txtName"
-        cssclass="alert-danger"></asp:RequiredFieldValidator>
-    <asp:button id="btnSubmit" runat="server"
-        text="Submit" cssclass="btn btn-success" 
-        OnClick="btnSubmit_Click" />
+        <p class="jumbotron">This application is used to explore the basics of ASP.NET</p>
+
 </asp:Content>
-
-
