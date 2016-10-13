@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Assignment 1</title>
+    <title>COMP2084</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <!-- Latest compiled and minified CSS -->
@@ -27,7 +27,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="default.aspx">Assignment 1</a>
+              <a class="navbar-brand" href="default.aspx">COMP2084 | Week 5</a>
             </div>
           </div><!-- /.container-fluid -->
         </nav>
