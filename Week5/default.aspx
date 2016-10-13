@@ -224,16 +224,5 @@
 
             <div class="text-center">
         <input type="submit" name="ctl00$ContentPlaceHolder1$btnCalculate" value="Calculate Totals" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnCalculate&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_btnCalculate" class="btn btn-primary" />
-    </div>            <div>
-        <asp:label id="lblMessage" runat="server" 
-            cssclass="alert alert-info" Visible="false"></asp:label>
-    </div>
-    <asp:textbox id="txtName" runat="server" 
-        placeholder="Enter your name" />
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
-        ErrorMessage="Required" ControlToValidate="txtName"
-        cssclass="alert-danger"></asp:RequiredFieldValidator>
-    <asp:button id="btnSubmit" runat="server"
-        text="Submit" cssclass="btn btn-success" 
-        OnClick="btnSubmit_Click" />
+    </div>
 </asp:Content>
